@@ -1,0 +1,60 @@
+
+body{
+    background: rgb(180, 175, 175);
+}
+
+.container{
+    max-width: 1770px;
+    margin: 0px, auto;
+}
+
+.footer_container{
+    padding-top: 25px;
+}
+.footer{
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 10px; 
+    background: #f7f7f7;
+    width: 100%; 
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.card{
+    margin: 10px;
+}
+
+@media screen and (max-width:1170px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media screen and (max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media screen and (max-width:533px){
+    .container{
+        max-width: none;
+    }
+    .cart{
+        display: grid;
+    }
+}
+
+
+.navbar-dark .navbar-brand {
+    color: #000;
+}
+.navbar-brand {
+    font-size: 25px;
+}
+.form-control{
+    background-color: #efebeb;
+    
+}
