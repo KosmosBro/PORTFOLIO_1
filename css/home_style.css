@@ -23,7 +23,7 @@ body {
 .cart {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin-top: 10px;
 }
 .card {
   margin: 10px;
@@ -75,6 +75,6 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-#cart2{
-    width: max-content;
+#cart2 {
+  width: max-content;
 }
